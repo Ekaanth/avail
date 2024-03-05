@@ -17,6 +17,10 @@
 > - [Rust](https://www.rust-lang.org/learn/get-started)
 > - [Substrate dependencies](https://docs.substrate.io/install/)
 
+Build the node binary
+```
+cargo build --release
+```
 
 After ensuring you have the dependencies installed, you can run the Avail Node using the following command:
 ```bash
