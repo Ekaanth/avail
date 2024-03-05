@@ -21,7 +21,7 @@
 After ensuring you have the dependencies installed, you can run the Avail Node using the following command:
 ```bash
 mkdir -p output
-cargo run --locked --release -- --chain goldberg -d ./output
+cargo run --bin avail-node --locked --release -- --chain goldberg -d ./output
 ```
 This command compiles and runs the Avail Node connected to the Goldberg Network.
 
@@ -62,7 +62,7 @@ This command compiles and runs the Avail Node connected to the Goldberg Network.
 #### Running Dev Chain
 A development chain is typically used for testing and development purposes.
 ```bash
-cargo run --locked --release -- --dev
+cargo run --bin avail-node --locked --release -- --dev
 ```
 
 ### Docker
