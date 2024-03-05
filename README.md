@@ -30,37 +30,43 @@ cargo run --bin avail-node --locked --release -- --chain goldberg -d ./output
 This command compiles and runs the Avail Node connected to the Goldberg Network.
 
 ```
-2023-11-17 11:31:35 Avail Node    
-2023-11-17 11:31:35 ✌️  version 1.8.2-3fe1bd1a835    
-2023-11-17 11:31:35 ❤️  by Anonymous, 2017-2023    
-2023-11-17 11:31:35 📋 Chain specification: Avail Goldberg Testnet    
-2023-11-17 11:31:35 🏷  Node name: exotic-shame-9524    
-2023-11-17 11:31:35 👤 Role: FULL    
-2023-11-17 11:31:35 💾 Database: RocksDb at /tmp/substrate6VCSz0/chains/avail_goldberg_testnet/db/full    
-2023-11-17 11:31:36 🔨 Initializing Genesis block/state (state: 0x6bc7…ec83, header-hash: 0x6f09…a7ae)    
-2023-11-17 11:31:36 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.    
-2023-11-17 11:31:36 👶 Creating empty BABE epoch changes on what appears to be first startup.    
-2023-11-17 11:31:36 🏷  Local node identity is: 12D3KooWGhdJUhZTtqByZKpojSdT26eadVtnvQ6fdrJU8mjeTuiq    
-2023-11-17 11:31:36 Prometheus metrics extended with avail metrics    
-2023-11-17 11:31:36 💻 Operating system: linux    
-2023-11-17 11:31:36 💻 CPU architecture: x86_64    
-2023-11-17 11:31:36 💻 Target environment: gnu    
-2023-11-17 11:31:36 💻 CPU: 13th Gen Intel(R) Core(TM) i7-13700K    
-2023-11-17 11:31:36 💻 CPU cores: 16    
-2023-11-17 11:31:36 💻 Memory: 31863MB    
-2023-11-17 11:31:36 💻 Kernel: 6.5.10-200.fc38.x86_64    
-2023-11-17 11:31:36 💻 Linux distribution: Fedora Linux 38 (Workstation Edition)    
-2023-11-17 11:31:36 💻 Virtual machine: no    
-2023-11-17 11:31:36 📦 Highest known block at #0    
-2023-11-17 11:31:36 〽️ Prometheus exporter started at 127.0.0.1:9615    
-2023-11-17 11:31:36 Running JSON-RPC server: addr=127.0.0.1:9944, allowed origins=["http://localhost:*", "http://127.0.0.1:*", "https://localhost:*", "https://127.0.0.1:*", "https://polkadot.js.org"]    
-2023-11-17 11:31:36 🏁 CPU score: 1.65 GiBs    
-2023-11-17 11:31:36 🏁 Memory score: 22.56 GiBs    
-2023-11-17 11:31:36 🏁 Disk score (seq. writes): 7.25 GiBs    
-2023-11-17 11:31:36 🏁 Disk score (rand. writes): 2.81 GiBs    
-2023-11-17 11:31:37 🔍 Discovered new external address for our node: /ip4/176.61.156.176/tcp/30333/ws/p2p/12D3KooWGhdJUhZTtqByZKpojSdT26eadVtnvQ6fdrJU8mjeTuiq    
-2023-11-17 11:31:41 ⚙️  Syncing, target=#41833 (8 peers), best: #2690 (0x13c8…42fa), finalized #2560 (0x1282…a791), ⬇ 2.9MiB/s ⬆ 38.4kiB/s    
-2023-11-17 11:31:46 ⚙️  Syncing 62.8 bps, target=#41833 (8 peers), best: #3004 (0xa183…81a0), finalized #2560 (0x1282…a791), ⬇ 106.9kiB/s ⬆ 2.1kiB/s  
+2024-03-06 01:21:16 Avail Node    
+2024-03-06 01:21:16 ✌️  version 2.0.0-b9e12941fbb    
+2024-03-06 01:21:16 ❤️  by Avail Team, 2017-2024    
+2024-03-06 01:21:16 📋 Chain specification: Avail Development Network    
+2024-03-06 01:21:16 🏷  Node name: spiritual-box-4451    
+2024-03-06 01:21:16 👤 Role: AUTHORITY    
+2024-03-06 01:21:16 💾 Database: ParityDb at /tmp/substrateRdcjpi/chains/avail_development_network/paritydb/full    
+2024-03-06 01:21:18 [0] 💸 generated 1 npos voters, 1 from validators and 0 nominators    
+2024-03-06 01:21:18 [0] 💸 generated 1 npos targets    
+2024-03-06 01:21:18 🔨 Initializing Genesis block/state (state: 0x535f…f4be, header-hash: 0x4040…60c7)    
+2024-03-06 01:21:18 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.    
+2024-03-06 01:21:19 👶 Creating empty BABE epoch changes on what appears to be first startup.    
+2024-03-06 01:21:19 🏷  Local node identity is: 12D3KooWAHwRDdRS5t9TfkF1j1W9MEqDLvyLFDvris5Uz3ioUnXe    
+2024-03-06 01:21:19 Prometheus metrics extended with avail metrics    
+2024-03-06 01:21:19 💻 Operating system: macos    
+2024-03-06 01:21:19 💻 CPU architecture: aarch64    
+2024-03-06 01:21:19 📦 Highest known block at #0    
+2024-03-06 01:21:19 〽️ Prometheus exporter started at 127.0.0.1:9615    
+2024-03-06 01:21:19 Running JSON-RPC server: addr=127.0.0.1:9944, allowed origins=["*"]    
+2024-03-06 01:21:19 🏁 CPU score: 933.28 MiBs    
+2024-03-06 01:21:19 🏁 Memory score: 39.50 GiBs    
+2024-03-06 01:21:19 🏁 Disk score (seq. writes): 1.96 GiBs    
+2024-03-06 01:21:19 🏁 Disk score (rand. writes): 437.16 MiBs    
+2024-03-06 01:21:19 👶 Starting BABE Authorship worker    
+2024-03-06 01:21:20 🙌 Starting consensus session on top of parent 0x40406cb985cc7aab47676de44c575eeca197104c066656e2c4fbdef4be1560c7    
+2024-03-06 01:21:20 🎁 Prepared block for proposing at 1 (101 ms) [hash: 0x98f2b756cb3476419d32212d69b3c804362ee9284033dada10f86d0b540d2fca; parent_hash: 0x4040…60c7; extrinsics (1): [0x45f9…994f]    
+2024-03-06 01:21:20 🔖 Pre-sealed block for proposal at 1. Hash now 0xcd233131c438543127213e70b7180a3aafc1548d7e12953a1c87605226aa0a1c, previously 0x98f2b756cb3476419d32212d69b3c804362ee9284033dada10f86d0b540d2fca.    
+2024-03-06 01:21:20 👶 New epoch 0 launching at block 0xcd23…0a1c (block slot 85483414 >= start slot 85483414).    
+2024-03-06 01:21:20 👶 Next epoch starts at slot 85484134    
+2024-03-06 01:21:20 ✨ Imported #1 (0xcd23…0a1c)    
+2024-03-06 01:21:24 💤 Idle (0 peers), best: #1 (0xcd23…0a1c), finalized #0 (0x4040…60c7), ⬇ 0 ⬆ 0    
+2024-03-06 01:21:29 💤 Idle (0 peers), best: #1 (0xcd23…0a1c), finalized #0 (0x4040…60c7), ⬇ 0 ⬆ 0    
+2024-03-06 01:21:34 💤 Idle (0 peers), best: #1 (0xcd23…0a1c), finalized #0 (0x4040…60c7), ⬇ 0 ⬆ 0    
+2024-03-06 01:21:39 💤 Idle (0 peers), best: #1 (0xcd23…0a1c), finalized #0 (0x4040…60c7), ⬇ 0 ⬆ 0    
+2024-03-06 01:21:40 🙌 Starting consensus session on top of parent 0xcd233131c438543127213e70b7180a3aafc1548d7e12953a1c87605226aa0a1c    
+2024-03-06 01:21:40 🎁 Prepared block for proposing at 2 (4 ms) [hash: 0x3ede6259943162cd9534f95adbc895a76df2fba9a54380ba0a1ef2b39e10b0a8; parent_hash: 0xcd23…0a1c; extrinsics (1): [0x3487…3b88]    
+2024-03-06 01:21:40 🔖 Pre-sealed block for proposal at 2. Hash now 0x80402ed8087db54725fff3d158cf25969ce4fedc73407c046b2b01b2db53ed31, previously 0x3ede6259943162cd9534f95adbc895a76df2fba9a54380ba0a1ef2b39e10b0a8. 
 ```
 
 #### Running Dev Chain
